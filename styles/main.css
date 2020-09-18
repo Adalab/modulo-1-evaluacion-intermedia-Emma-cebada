@@ -3,13 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-/* BODY */
-
-.body {
   font-family: "Rubik", sans-serif;
-  margin: 0;
 }
 
 /* HEADER */
@@ -18,10 +12,12 @@
   background-color: white;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px 0 3px 0;
+  box-sizing: border-box;
 }
 
 .adalab-icon {
@@ -38,12 +34,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px 13px 20px;
+  padding: 10px;
 }
 
 .header-list {
   font-size: 16px;
-  margin: 10px 0px 13px 0px;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -69,7 +64,7 @@
   text-align: center;
   color: #ffffff;
   position: absolute;
-  bottom: 220px;
+  width: 147px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -81,11 +76,11 @@
 @media all and (min-width: 768px) {
   .tittle {
     font-size: 40px;
-    bottom: 170px;
+    width: 195px;
   }
 
   .header {
-    padding: 20px 20px 30px 20px;
+    padding: 20px 10px 20px 30px;
     flex-direction: row;
     justify-content: space-between;
   }
